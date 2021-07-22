@@ -2,137 +2,138 @@
 
 <html>
     <head>
-        <title>TSLA BLOG</title>
-        <meta name="description" content="This is a blog on latest news of Tsla">
+        <title>TSLA WEB</title>
+        <meta name="description" content="This is a website on things regarding Tsla">
+        <link rel="stylesheet" href="style.css"/>
     </head>
     </head>
-        <style>
-            ol.a {
-                list-style-type: upper-roman;
-         }
-         </style>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="store.html">STORE</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                </ul>
-            </nav>
-            <hr>
-            <h1>TSLA</h1>
-        </header>
-        <section>
-            <h2>CARS</h2>
-            <div>
-                <div>
-                    <strong>Model S</strong>
-                </div>
-                <img src="Images/modelS.png" width="300" height="150">
-                <div>
-                    <span>$12 000</span>
-                    <button role="button">ADD TO CART</button>
+    <header class="about-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+        <h1 class="blog-name blog-name-large">TESLA</h1>
+    </header>
+        <section class="container content-section">
+            <h2 class="section-header">CARS</h2>
+            <div class="shop-items">
+            <div class="shop-item">
+                    <span class="shop-item-title">Model S</span>
+                <img class="shop-item-image" src="Images/modelS.png" width="300" height="150">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12 000</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
             </div>
-            <div>
-                <div>
-                    <strong>Model Y</strong>
-                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Model Y</span>
                 <img src="Images/modelY.png" width="300" height="150">
-                <div>
-                    <span>$9 000</span>
-                    <button role="button">ADD TO CART</button>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9 000</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
             </div>
-            <div>
-                <div>
-                    <strong>Model S Plaid</strong>
-                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Model S Plaid</span>
                 <img src="Images/modelSPlaid.jpg" width="300" height="150">
-                <div>
-                    <span>$15 000</span>
-                    <button role="button">ADD TO CART</button>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$15 000</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
             </div>
-            <div>
-                <div>
-                    <strong>Model 3</strong>
+                <div class="shop-item">
+                <div class="shop-item-details">
+                    <span class="shop-item-title">Model 3</span>
                 </div>
                 <img src="Images/model3.png" width="300" height="150">
-                <div>
-                    <span>$13 000</span>
-                    <button role="button">ADD TO CART</button>
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$13 000</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
             </div>
-        </section>
-        <section>
-            <h2>MERCH</h2>
-            <div>
-                <div>
-                    <strong>Corp Jacket</strong>
-                </div>
-                <img src="Images/jacket.png" width="300" height="300">
-                <div>
-                    <span>$42</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <strong>Tsla T Shirt (F)</strong>
-                </div>
-                <img src="Images/tslashirtF.png" width="300" height="300">
-                <div>
-                    <span>$35</span>
-                    <button role="button">ADD TO CART</button>
-                </div>
             </div>
         </section>
 
-        <section>
-            <h2>Cart</h2>
+        <section class="container content-section">
+            <h2 class="section-header">MERCH</h2>
+            <div class="shop-items">
             <div>
-                <strong>ITEM</strong>
-                &lt;&gt;
-                <strong>PRICE</strong>
-                &lt;&gt;
-                <strong>QUANTITY</strong>
+                <span class="shop-item-title">Corp Jacket</span>
+                <img src="Images/jacket.png" width="300" height="300">
+                <div class="shop-item">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$42</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+                </div>
             </div>
             <div>
-                <img src="Images/tslashirtF.png" width="100" height="100">
-                <span>Tsla T Shirt (F)</span>
-                &lt;&gt;
-                <span>$35</span>
-                &lt;&gt;
-                <input type="number" value="1">
-                <button role=""button>REMOVE</button>
+                <span class="shop-item-title">Tsla T Shirt (F)</span>
+                <img src="Images/tslashirtF.png" width="300" height="300">
+                <div class="shop-item">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$35</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+                </div>
             </div>
-            <div>
-                <img src="Images/modelSsq.png" width="100" height="100">
-                <span>Model S</span>
-                &lt;&gt;
-                <span>$12 000</span>
-                &lt;&gt;
-                <input type="number" value="1">
-                <button role=""button>REMOVE</button>
-            </div>
-            <hr>
-            <div>
-                <strong>Total</strong>
-                <span>$15 035</span>
-            </div>
-            <div>
-                <button role="button">PURCHASE</button>
             </div>
         </section>
-    <footer>
-        <h3>Social Channels</h3>
-        <ol class = a>
-            <li><a href="https://facebook.com" target="_blank"><img src="Images/facebook.png" width="50" height="50"></a></li>
-            <li><a href="https://twitter.com" target="_blank"><img src="Images/twitter.png" width="50" height="50"></a></li>
-            <li><a href="https://youtube.com" target="_blank"><img src="Images/youtube.png" width="50" height="50"></a></li>
-        </ol>
-    </footer>
+
+        <section class="container content-section">
+            <h2 class="section-header">Cart</h2>
+                <div class="cart-items">
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column">ITEM</span>
+                        <span class="cart-price cart-header cart-column">PRICE</span>
+                        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                    </div>
+                    <div class="cart-row">
+                        <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Images/tslashirtF.png" width="100" height="100">
+                        <span class="cart-item-title">Tsla T Shirt (F)</span>
+                        </div>
+                        <span class="cart-price cart-column">$35</span>
+                        <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" role="button">REMOVE</button>
+                    </div>
+                    </div>
+                    <div class="cart-row">
+                        <div class="cart-item cart-column">
+                        <img src="Images/modelSsq.png" width="100" height="100">
+                        <span class="cart-item-title">Model S</span>
+                        </div>
+                        <span class="cart-price cart-column">$12 000</span>
+                        <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                            <button class="btn btn-danger" role="button">REMOVE</button>
+                    </div>
+                    </div>
+                </div>
+            <div  class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$15 035</span>
+            </div>
+            <div>
+                <button class="btn btn-primary btn-purchase" role="button">PURCHASE</button>
+            </div>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="blog-name"></h3>
+                <ul class="nav footer-nav">
+                    <li><a href="https://www.facebook.com/TeslaMotorsCorp/" target="_blank"><img src="Images/facebook1.png" width="50" height="50"></a></li>
+                    <li><a href="https://www.youtube.com/c/TeslaDaily/videos" target="_blank"><img src="Images/youtube1.png" width="50" height="50"></a></li>
+                    <li><a href="https://twitter.com/i/topics/1301568510271709184" target="_blank"><img src="Images/twitter1.png" width="50" height="50"></a></li>
+                    <li><a href="https://open.spotify.com/show/2iin015s0k21Bt4ldep9XT?si=uBV4Ft8hQEu_GE4YSIDDGg&nd=1" target="_blank"><img src="Images/spotify1.png" width="50" height="50"></a></li>
+
+                </ul>
+            </div>
+        </footer>
         </body>
 </html>

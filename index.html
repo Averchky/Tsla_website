@@ -2,92 +2,71 @@
 
 <html>
     <head>
-        <title>TSLA BLOG</title>
-        <meta name="description" content="This is a blog on latest news of Tsla">
+        <title>TSLA WEB</title>
+        <meta name="description" content="This is a website on things regarding Tsla">
+        <link rel="stylesheet" href="style.css"/>
     </head>
-        <style>
-            ol.a {
-                list-style-type: upper-roman;
-         }
-         </style>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="store.html">STORE</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                </ul>
-            </nav>
-            <hr>
-            <h1>TSLA</h1>
-            <button type="button">Get the latest news</button>
-            <br>
-            <br>
-            <!-- Todo: Find a background image -->
-            <button>&#9658;</button>
+    <header class="about-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+        <h1 class="blog-name blog-name-large">TESLA Blog</h1>
+        <div class="container">
+            <button class="btn btn-header" type="button">Get the latest news</button>
+        </div>
+            <button class="btn btn-header btn-play" type="button">&#9658;</button>
         </header>
-        <section>
-            <h2>NEWS</h2>
+        <section class="content-section container">
+            <h2 class="section-header">NEWS</h2>
             <div>
-                <div>
-                    <strong>10 JUN 2021</strong>
-                    &lt;&gt;
-                    <span>Plaid delivery numbers</span>
-                    &lt;&gt;
-                    <span>Plaid beat expectations</span>
-                    &lt;&gt;
-                    <button type="button">SOURCE</button>
-                    <hr>
+                <div class="news-row">
+                    <span class="news-item news-date">9 JUN 2021</span>
+                    <span class="news-item news-country">Plaid delivery numbers</span>
+                    <span class="news-item news-title">Plaid beat expectations</span>
+                    <button type="button" class="btn news-item news-btn btn-source">SOURCE</button>
                 </div>
-                <div>
-                    <strong>9 JUN 2021</strong>
-                    &lt;&gt;
-                    <span>Tsla no longer accepts bitcoin</span>
-                    &lt;&gt;
-                    <span>Bitcoin plunges as Elon Musk tweets out</span>
-                    &lt;&gt;
-                    <button type="button">SOURCE</button>
-                    <hr>
+                <div class="news-row">
+                    <span class="news-item news-date">9 JUN 2021</span>
+                    <span class="news-item news-country">Tsla no longer accepts bitcoin</span>
+                    <span class="news-item news-title">Bitcoin plunges as Elon Musk tweets out</span>
+                    <button type="button" class="btn news-item news-btn btn-source">SOURCE</button>
                 </div>
-                <div>
-                    <strong>8 JUN 2021</strong>
-                    &lt;&gt;
-                    <span>Cybertruck set sigh on Giga Berlin</span>
-                    &lt;&gt;
-                    <span>The truck may come sooner to Germany</span>
-                    &lt;&gt;
-                    <button type="button">SOURCE</button>
-                    <hr>
+                <div class="news-row">
+                    <span class="news-item news-date">8 JUN 2021</span>
+                    <span class="news-item news-country">Cybertruck set sigh on Giga Berlin</span>
+                    <span class="news-item news-title">The truck may come sooner to Germany</span>
+                    <button type="button" class="btn news-item news-btn btn-source">SOURCE</button>
                 </div>
-                <div>
-                    <strong>7 JUN 2021</strong>
-                    &lt;&gt;
-                    <span>Woman admits in causing FUDs in Tsla China</span>
-                    &lt;&gt;
-                    <span>Tsla installed a China Legal team to combat attacks</span>
-                    &lt;&gt;
-                    <button type="button">SOURCE</button>
-                    <hr>
+                <div class="news-row">
+                    <span class="news-item news-date">7 JUN 2021</span>
+                    <span class="news-item news-country">Woman admits in causing FUDs in Tsla China</span>
+                    <span class="news-item news-title">Tsla installed a China Legal team to combat attacks</span>
+                    <button type="button" class="btn news-item news-btn btn-source">SOURCE</button>
                 </div>
-                <div>
-                    <strong>6 JUN 2021</strong>
-                    &lt;&gt;
-                    <span>Elon to "work" with Dogecoin developers</span>
-                    &lt;&gt;
-                    <span>Dogecoin developer responded that is not true</span>
-                    &lt;&gt;
-                    <button type="button">SOURCE</button>
+                <div class="news-row">
+                    <span class="news-item news-date">6 JUN 2021</span>
+                    <span class="news-item news-country">Elon to "work" with Dogecoin developers</span>
+                    <span class="news-item news-title">Dogecoin developer responded that is not true</span>
+                    <button type="button" class="btn news-item news-btn btn-source">SOURCE</button>
                 </div>
             </div>
         </section>
-    <footer>
-        <h3>Social Channels</h3>
-        <ol class = a>
-            <li><a href="https://facebook.com" target="_blank"><img src="Images/facebook.png" width="50" height="50"></a></li>
-            <li><a href="https://twitter.com" target="_blank"><img src="Images/twitter.png" width="50" height="50"></a></li>
-            <li><a href="https://youtube.com" target="_blank"><img src="Images/youtube.png" width="50" height="50"></a></li>
-        </ol>
-    </footer>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="blog-name"></h3>
+                <ul class="nav footer-nav">
+                    <li><a href="https://www.facebook.com/TeslaMotorsCorp/" target="_blank"><img src="Images/facebook1.png" width="50" height="50"></a></li>
+                    <li><a href="https://www.youtube.com/c/TeslaDaily/videos" target="_blank"><img src="Images/youtube1.png" width="50" height="50"></a></li>
+                    <li><a href="https://twitter.com/i/topics/1301568510271709184" target="_blank"><img src="Images/twitter1.png" width="50" height="50"></a></li>
+                    <li><a href="https://open.spotify.com/show/2iin015s0k21Bt4ldep9XT?si=uBV4Ft8hQEu_GE4YSIDDGg&nd=1" target="_blank"><img src="Images/spotify1.png" width="50" height="50"></a></li>
+
+                </ul>
+            </div>
+        </footer>
         </body>
 </html>
